@@ -1,29 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <PackageId>Dzeta.Extensions.CQRS</PackageId>
-    <Title>Dzeta.Extensions.CQRS</Title>
-    <Description>CQRS + EF Core + MediatR utilities: base entity with domain events, unit of work, and DbContext dispatching domain events.</Description>
-    <Authors>Dzeta</Authors>
-    <RepositoryUrl>https://github.com/Dzeta-tech/cqrs-extensions</RepositoryUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageVersion>1.0.0</PackageVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Dzeta.Extensions.CQRS</PackageId>
+        <Title>Dzeta.Extensions.CQRS</Title>
+        <Description>CQRS + EF Core + MediatR utilities: base entity with domain events, unit of work, and DbContext dispatching domain events.</Description>
+        <Authors>Dzeta</Authors>
+        <RepositoryUrl>https://github.com/Dzeta-tech/cqrs-extensions</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageVersion>1.0.0</PackageVersion>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="MediatR" Version="13.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="13.0.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <None Include="../../README.md" Pack="true" PackagePath="/" />
-  </ItemGroup>
+    <ItemGroup>
+        <None Include="../../README.md" Pack="true" PackagePath="/"/>
+    </ItemGroup>
 
 </Project>
